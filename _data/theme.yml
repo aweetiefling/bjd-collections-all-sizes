@@ -33,7 +33,7 @@ subjects-stopwords: # boxers;boxing;boxer # set of subjects separated by ;, e.g.
 #
 # add metadata fields for export in data downloads (tip: paste in first row of csv)
 # comma delimited list, reference url is automatic
-objectid, title,format, filename, subjectcontents, Owner, Photographer, Sculptor, description, imagealttext, Sculpt/Body Name			
+: objectid title,format, filename, subjectcontents, Owner, Photographer, Sculptor, description, imagealttext, Sculpt/Body Name			
 metadata-export-fields: "subjectcontents,owner,photographer,sculptor,description,imagealttext,sculpt/bodyname"
 # generate a facets list for given fields, comma delimited
 metadata-facets-fields: "subject,creator,format"
